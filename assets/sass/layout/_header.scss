@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 10vh;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    &__ingreso {
+        &--iniciarsesion {   
+            font-size: 1.2rem; 
+            background-color: white;    
+            color: gray;   
+            border-color: white;
+            font-weight: 100;
+        }
+        &--registrate {
+            font-size: 1.2rem;
+            background-color: #4BA765;
+            color: white;
+            border-color: white;
+            font-weight: 100;
+        }
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        &--img {
+            height: 9vh;
+        }
+        &--texto {
+            color: gray;
+            padding-left: 5vw;
+            font-size: 1.2rem;
+            font-weight: 100;
+            
+        }
+    }
+}

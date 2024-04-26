@@ -1,0 +1,114 @@
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    position: relative;
+    width: auto;
+    &__container1 {
+        position: relative;
+        &--containerimg {
+            position: relative;
+            width: 90%;
+            height: 20%;
+        }
+        &--img {
+            width: 65vw;
+        }
+    }
+    &__container2 {
+        display: flex;
+        background-color: white;
+        width: 300px;
+        position: absolute;
+        top: 35vh;
+        left: 47vw;
+        transform: translate(-50%, -50%);        
+    }
+    &__container3 {
+        &--box {
+            position: relative;
+        }
+        &--boxamarillo {
+            background-color: #e9ca30;
+            width: 100px;
+            height: 100px;
+            top: 37vh;
+            right: 28vw;
+            z-index: 1;
+            position: absolute;
+        }
+        &--boxnaranjo {
+            background-color: #e4572e;
+            width: 100px;
+            height: 100px;
+            top: 35vh;
+            right: 30vw;
+            z-index: 2;
+            align-items: center;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+        }
+        &--flecha {
+            color: white;
+            font-size: 40px;
+        }
+        &--parrafo {
+            position: absolute;
+            right: 16vw;
+            top: 20vh;
+        }
+        &--titulo {
+            position: absolute;
+            right: 5vw;
+            font-size: 50px;
+            max-width: 20vw;
+        }
+    }
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    &__container1 {
+        max-width: 30vw;
+        &--parrafo {
+            max-width: 20vw;
+            left: 20vw;
+        }
+    }
+    &__container2 {
+        display: flex;
+        position: relative;
+        &--boxceleste {
+            background-color: cornflowerblue;
+            width: 35vw;
+            height: 25vh;
+            position: absolute;
+            right: -15vw;
+            top: 0vh;
+            z-index: -1;
+        }
+        &--mapa {
+            width: 30vw;
+            position: absolute;
+            right: -10vw;
+            top: 3vh;
+        }
+        &--cafe {
+            width: 8vw;
+            height: 15vh;
+            left: 200px;
+            position: absolute;
+            object-fit: cover;
+        }
+    }
+    &__container3 {
+        display: flex;
+        justify-content: right;
+        &--img {
+            justify-content: right;
+            width: 40vw;
+        }
+    }
+}
